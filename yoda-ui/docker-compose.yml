@@ -1,8 +1,0 @@
-services:
-  yoda-ui:
-    build: .
-    image: yoda-ui
-    ports: 
-      - 3000:3000
-    volumes: 
-      - ./:/code
